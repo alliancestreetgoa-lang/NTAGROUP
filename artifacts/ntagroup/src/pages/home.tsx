@@ -9,6 +9,7 @@ import productsRefinedOil from "@/assets/images/products-refined-oil.png";
 import productsCrude from "@/assets/images/products-crude.png";
 import productsPetrochemicals from "@/assets/images/products-petrochemicals.png";
 import productsGrains from "@/assets/images/products-grains.png";
+import heroVideo from "@assets/generated_videos/ntagroup_hero.mp4";
 import { useRef } from "react";
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => (
@@ -40,11 +41,17 @@ export default function Home() {
         <motion.div style={{ y, opacity }} className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-transparent z-10" />
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent z-10" />
-          <img 
-            src={heroFertilizers} 
-            alt="Chemical Fertilizer Facility" 
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster={heroFertilizers}
             className="w-full h-full object-cover object-center scale-105"
-          />
+            data-testid="video-hero-background"
+          >
+            <source src={heroVideo} type="video/mp4" />
+          </video>
         </motion.div>
 
         <div className="container mx-auto px-6 md:px-12 relative z-20 pt-20">
