@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "8rBeCY2jCrMIeQ72-XMqx"
+uri = "file://artifacts/ntagroup/src/assets/images/hero-fertilizers.png"
+type = "image"
+title = "Massive chemical fertilizer facility"
+
+[[generated]]
+id = "EvrvRGf6t6L71L_GuoOnI"
+uri = "file://artifacts/ntagroup/src/assets/images/products-lng.png"
+type = "image"
+title = "LNG carrier ship ocean"
+
+[[generated]]
+id = "TlX_RahImUY5ilnJveIsd"
+uri = "file://artifacts/ntagroup/src/assets/images/products-refined-oil.png"
+type = "image"
+title = "Modern oil refinery night"
+
+[[generated]]
+id = "XtYDjaT4X62-GhHVV2ZIt"
+uri = "file://artifacts/ntagroup/src/assets/images/products-crude.png"
+type = "image"
+title = "Crude oil supertanker sunset"
+
+[[generated]]
+id = "69MK0VfYZZ1Ptex4MgQSO"
+uri = "file://artifacts/ntagroup/src/assets/images/products-petrochemicals.png"
+type = "image"
+title = "Petrochemicals abstract glowing"
+
+[[generated]]
+id = "0d6ueTru9cWVWsklxIFdd"
+uri = "file://artifacts/ntagroup/src/assets/images/products-grains.png"
+type = "image"
+title = "Golden wheat field sky"
+
+[[generated]]
+id = "z5pHoD0WsGCD-raOQobB9"
+uri = "file://artifacts/ntagroup/src/assets/images/about-hq.png"
+type = "image"
+title = "Corporate skyscraper in Dubai"
